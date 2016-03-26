@@ -27,7 +27,7 @@
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     CALayer *redViewLayer = self.redView.layer;
 //    redViewLayer.anchorPoint = CGPointMake(0.5, 1.0);
-    redViewLayer.transform = CATransform3DMakeRotation( 2 * )M_PI, 0, 0, 1);
+    redViewLayer.transform = CATransform3DMakeRotation(M_PI, 0, 0, 1);
 }
 
 @end
